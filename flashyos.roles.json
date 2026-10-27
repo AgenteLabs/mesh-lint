@@ -9,7 +9,7 @@
   "repositories": [
     {
       "name": "mesh-lint",
-      "url": "github.com/FlashyLabs/mesh-lint",
+      "url": "github.com/AgenteLabs/mesh-lint",
       "default": true,
       "holds": [
         "tooling",
