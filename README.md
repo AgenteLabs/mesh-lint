@@ -9,7 +9,7 @@
       ██
 ```
 
-[![CI](https://github.com/flashylabs/mesh-lint/actions/workflows/ci.yml/badge.svg)](https://github.com/flashylabs/mesh-lint/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/licence-Apache--2.0-blue)](LICENSE)
+[![CI](https://github.com/AgenteLabs/mesh-lint/actions/workflows/ci.yml/badge.svg)](https://github.com/AgenteLabs/mesh-lint/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/licence-Apache--2.0-blue)](LICENSE)
 
 **A GitHub Action for the checks that fail silently.**
 
@@ -20,7 +20,7 @@ Annotates a pull request with the defects nothing else reports: a JSON Schema `$
 From a clone, today — no install, no registry:
 
 ```bash
-git clone https://github.com/flashylabs/mesh-lint && cd mesh-lint
+git clone https://github.com/AgenteLabs/mesh-lint && cd mesh-lint
 node src/cli.mjs --root /path/to/your/repo
 ```
 
@@ -35,7 +35,7 @@ npx @flashyos/mesh-lint --gate                # exit 1 on a finding
 ```
 
 ```yaml
-- uses: flashylabs/mesh-lint@v1
+- uses: AgenteLabs/mesh-lint@v1
   with:
     checks: schema-ids,published-from,well-known
     gate: false
@@ -98,7 +98,7 @@ The three checks run, are tested against fixtures rather than against the
 estate that found them, and `action.yml` is a composite action with no build
 step. What does not exist yet is a published package or a tag — measured
 2026-09-23, `@flashyos/mesh-lint` answers 404 on npm and this repository has
-no tags — so `npx @flashyos/mesh-lint` and `uses: flashylabs/mesh-lint@v1`
+no tags — so `npx @flashyos/mesh-lint` and `uses: AgenteLabs/mesh-lint@v1`
 both fail today. Clone it and run `node src/cli.mjs` until they do.
 
 That gap is named here rather than left for the first person who copies a line
@@ -124,5 +124,5 @@ tooling is open; fork either, and check ours against yours.
 
 `directory/1`, `frontdoor/1`, `countersign/1`, `backlog/1`, `shipped/1` and the
 rest are Apache-2.0 and specified in the open at
-[github.com/flashylabs](https://github.com/flashylabs). Nothing in them requires
+[github.com/AgenteLabs](https://github.com/AgenteLabs). Nothing in them requires
 an account, a key, or a call to us — including the checking.
