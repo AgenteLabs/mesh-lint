@@ -7,10 +7,10 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flashylabs/mesh-lint.git"
+    "url": "git+https://github.com/AgenteLabs/mesh-lint.git"
   },
-  "homepage": "https://github.com/flashylabs/mesh-lint#readme",
-  "bugs": "https://github.com/flashylabs/mesh-lint/issues",
+  "homepage": "https://github.com/AgenteLabs/mesh-lint#readme",
+  "bugs": "https://github.com/AgenteLabs/mesh-lint/issues",
   "engines": {
     "node": ">=20"
   },
