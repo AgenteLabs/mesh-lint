@@ -117,7 +117,7 @@ Sign-off rather than a copyright assignment — see
 
 ## Licence
 
-[Apache-2.0](LICENSE), copyright Flashy Labs. The rules are open and the
+[Apache-2.0](LICENSE), copyright Agente Labs. The rules are open and the
 tooling is open; fork either, and check ours against yours.
 
 ## The formats these were written for
